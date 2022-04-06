@@ -1,0 +1,66 @@
+body {
+    padding: 0;
+    text-align: center;
+    background-color: rgb(231, 188, 142);
+    background-image: url("/images/money-tree.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h2 {
+    color: rgb(0, 0, 0);
+  }
+
+  .game-intro {
+    float: left;
+    padding: 0% 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color:rgba(151, 145, 138, 0.75);
+  }
+
+  p {
+    color: rgb(0, 0, 0);
+  }
+  
+  .game-intro p {
+    font-size: 20px;
+    font-family: "Times"
+  }
+
+  .logo-img {
+    width: 350px;
+  }
+
+  .arrows-img {
+    width: 150px;
+  }
+
+  .spacebar {
+    width: 150px;
+  }
+
+  body button {
+    font-size: 26px;
+    font-family: "Times";
+    background-color: #689262;
+    color: #fff;
+    padding: 20px 40px;
+    border: 0;
+    box-shadow: 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+
+#game-board {
+    float: right;
+    padding: 20px 0px;
+    padding-right: 10px;
+}
+
+canvas {
+    background-image: url("/images/bank-vault2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

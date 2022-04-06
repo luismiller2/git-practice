@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Stack Ya Bread</title>
+</head>
+<body>
+    <div class="game-intro">
+        <h2>Game objective: Stack Ya Bread & avoid obstacles</h2>
+        <img src="images/stack-meme.png" alt="" class="logo-img"/>
+        <br/>
+        <button id="start-button">Start Stacking!</button>
+        <p>Use the left and right arrow to control the player and SpaceBar to jump!</p>
+        <p>version 1.0.0</p>
+        <img src="images/arrows.png" alt="" class="arrows-img" />
+        <img src="images/spacebar.png" alt="" class="spacebar"/>
+    </div>
+
+    <div id="game-board">
+        <canvas id="canvas" width="600" height="700"></canvas>
+      </div>
+
+      <script type="text/javascript" src="index.js"></script>
+      <script>
+        function accelerate(n) {
+          player.gravity = n;
+        }
+        </script>
+</body>
+</html>
