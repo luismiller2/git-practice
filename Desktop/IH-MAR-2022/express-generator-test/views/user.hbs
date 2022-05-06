@@ -1,0 +1,8 @@
+<h2>This is the user page</h2>
+<ul>
+    {{#each classArr}}
+    {{> listItem this}}
+    {{!-- <a href="/user/{{this}}">{{this}}</a> --}}
+    {{> skills this}}
+    {{/each}}
+</ul>

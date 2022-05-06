@@ -1,0 +1,18 @@
+<h2>Our things</h2>
+{{#each thingsArr}}
+
+  {{!-- <p>{{this.name}}</p> --}}
+  {{> listItem name}}
+  {{! alternatively }}
+  {{!-- <p>{{name}}</p> --}}
+  {{#if this.isFood}}
+    <p>{{this.name}} is food</p>
+  {{else}}
+    <p>{{this.name}} is not food</p>
+  {{/if}}
+  {{! Like if, but checks falsy }}
+  {{#unless this.name}}
+    <p>We don't know what this is</p>
+  {{/unless}}
+
+{{/each}}

@@ -1,0 +1,12 @@
+<h2>Update the room</h2>
+
+<form method="post" action="/rooms/{{room._id}}/edit">
+<label>Name</label>
+<input name="name" value="{{room.name}}">
+<label>Description</label>
+<input name="description" value="{{room.description}}">
+
+<button type="submit">Edit room</button>
+
+
+</form>

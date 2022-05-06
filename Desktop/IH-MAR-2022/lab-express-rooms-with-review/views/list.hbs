@@ -1,0 +1,15 @@
+<h2>Available rooms</h2>
+
+{{#each allRooms}}
+
+<p>{{this.name}}</p>
+<p>{{this.description}}</p>
+<img src="{{this.imageUrl}}"/>
+<div>
+<a href="/rooms/{{this._id}}/edit"> Edit </a>
+</div>
+<a href ="/rooms/{{}}/add-review">Add a review</a>
+<form method="post" action="/rooms/{{this.id}}/delete">
+<button type="submit">Delete Room</button>
+</form>
+{{/each}}

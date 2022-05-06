@@ -1,0 +1,29 @@
+body {
+    background-color: paleturquoise;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* in order to reference a class, you must */
+
+h2 {
+    color: violet !important;
+}
+
+.sub-header {
+    color: red;
+}
+
+/* in order to reference an id, you have to use the # symbol. */
+
+#block {
+    color: green;
+}
+
+
+ul > li {
+    background-color: blueviolet;
+    color: white;
+}

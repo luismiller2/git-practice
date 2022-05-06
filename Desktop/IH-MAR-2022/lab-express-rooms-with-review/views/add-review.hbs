@@ -1,0 +1,13 @@
+<h2>Create a Review</h2>
+
+<form method="post" action="/rooms/{{foundRoom._id}}/add-review">
+
+  <label>Comment</label>
+  <textarea name="name" value="Cool room" />
+  <label>description</label>
+  <input name="description" value="A cool room" />
+
+  <button type="submit">Create Room</button>
+</form>
+
+<p>{{message}}</p>
